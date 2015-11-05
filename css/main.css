@@ -1,0 +1,121 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit; 
+}
+
+body {
+  background-color: #E2E2E2;
+  color: #606060;
+  font-family: 'Oxygen', sans-serif;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  margin: 0;
+  
+  perspective: 1px;
+  -webkit-perspective: 1px;
+}
+
+img {
+  width: 100%;
+}
+
+.billboard {
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/haley-img-me.jpg);
+  background-repeat: no-repeat;
+  width: auto;
+  height: 20em;
+}
+
+.nav-box {
+  height: 4em;
+  background-color: rgba(214, 117, 22, 0.7);
+}
+
+.nav-ul {
+  width: 100%;
+  position: absolute;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  right: 0;
+}
+
+.work,
+.me {
+  margin: 15px;
+  top: 1.2em;
+  position: relative;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: lighter;
+  color: #FFF;
+  text-decoration: none;
+  right: 0;
+}
+
+.lion {
+  position: relative;
+  height: 3em;
+  margin: 10px;
+}
+
+.logo-box {
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  width: 100px;
+  left: calc(50% - 50px);
+  top: 8.5em;
+}
+
+.parallax-group {
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+}
+
+.forest-back {
+
+}
+
+.jaz-front {
+
+}
+
+main,
+footer {
+  padding: 5%;
+}
+
+footer {
+  background-color: #48A7B7;
+}
+
+.soc-med-icons {
+
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+  font-family: 'Oxygen', sans-serif;
+  text-align: center;
+  color: #D67516;
+}
